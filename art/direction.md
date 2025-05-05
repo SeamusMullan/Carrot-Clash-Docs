@@ -3,25 +3,26 @@
 ## Visual Style
 
 ### Core Art Philosophy
-- **Stylized Realism:** Exaggerated proportions with realistic texturing
-- **Organic Expressionism:** Plant forms with personality and emotion
-- **Contamination Contrast:** Visual distinction between pure and mutated elements
-- **Post-Human Design:** World designed around plant perspectives rather than human ergonomics
-- **Color Psychology:** Deliberate use of color to convey faction identity and emotional states
+- **Bold Stylization:** Heavily stylized visuals with exaggerated proportions and clean edges
+- **Cartoon Cel-Shading:** Distinct outlines and color banding for a comic-book aesthetic
+- **Vibrant Expression:** Hyper-saturated color palette with strong contrast and visual pop
+- **Dynamic Exaggeration:** Amplified animations and effects for visual impact
+- **Readable Gameplay:** Visual clarity prioritized through distinctive silhouettes and color coding
 
 ### Reference Influences
-- **Plants vs. Zombies:** Character charm and personality in plant designs
-- **Fallout:** Post-apocalyptic environmental storytelling
-- **Splatoon:** Vibrant color usage in a competitive shooter
-- **The Last of Us:** Organic reclamation of human structures
-- **Borderlands:** Stylized character design with strong silhouettes
+- **Plants vs. Zombies: Garden Warfare:** Character charm and team-based visual language
+- **Sunset Overdrive:** Vibrant color usage and exaggerated movement style
+- **Borderlands:** Strong cel-shaded outlines and comic-book style rendering
+- **Mirror's Edge:** Clean color blocking and minimalist visual language for navigation
+- **Fortnite:** Accessible cartoon style with clear readability at distance
+- **Splatoon:** Ink-based effects and vibrant factional color identity
 
 ### Style Guide
-- **Proportions:** Exaggerated features for readability and character
-- **Silhouettes:** Distinctive outlines for immediate recognition
-- **Detail Balance:** Strategic detail placement for visual hierarchy
-- **Material Definition:** Clear visual language for different substances
-- **Texture Approach:** Hand-painted textures with strategic photo elements
+- **Hard Outlines:** Black outline rendering on characters and key objects
+- **Simplified Details:** Bold shapes prioritized over fine texturing
+- **Dynamic Proportions:** Exaggerated features for personality and readability
+- **Color Blocking:** Strong color contrast between adjacent elements
+- **Material Stylization:** Distinct shading bands rather than smooth gradients
 
 ## Character Visual Design
 
@@ -72,45 +73,52 @@
 ## Technical Art Style
 
 ### Modeling Standards
-- **Polygon Budget:** Tiered LOD system based on importance
-- **Modularity System:** Component-based approach for variety
-- **Silhouette Priority:** Emphasis on readable outlines from gameplay distances
-- **Detail Distribution:** Strategic high-detail areas for visual focus
-- **Optimization Approach:** Performance-conscious model construction
+- **Low-Poly Expressionism:** Simplified geometry with emphasis on strong forms rather than details
+- **Hard Edge Modeling:** Clean, defined edge loops to support cel-shading techniques
+- **Modularity System:** Component-based approach for character and environment variety
+- **Exaggerated Proportions:** Non-realistic scaling to emphasize personality and gameplay function
+- **Silhouette Hierarchy:** Ensuring character readability at all gameplay distances
 
 ### Texturing Approach
-- **Color Palette:** Faction-specific color schemes with contamination variations
-- **Material Definition:** Clear distinction between substance types
-- **Detail Hierarchy:** Strategic detail placement for readability
-- **Shader Usage:** Custom shaders for organic and contaminated materials
-- **Resolution Standards:** Texture allocation based on visual importance
+- **Flat Color Base:** Simplified base textures with minimal gradients for cel-shaded rendering
+- **Color Banding:** Deliberate color steps rather than smooth transitions
+- **Hand-Painted Details:** Stylized textures avoiding photorealistic elements
+- **Faction Color Coding:** Strong color identity for immediate team recognition
+- **Material Distinction:** Exaggerated material properties for clear surface reading
+
+### Shader Implementation
+- **Cel/Toon Shader Pipeline:** Multi-pass rendering for outline and color band effects
+- **Outline Rendering:** Post-process edge detection or inverted hull technique for cartoon outlines
+- **Ramp Textures:** Custom lighting ramps to control shading transitions
+- **Fresnel Effects:** Exaggerated rim lighting for character pop and readability
+- **Specialized Effects:** Comic-style impact animations and text elements
 
 ### Animation Style
-- **Character Movement:** Exaggerated but believable motion
-- **Plant Physics:** Specialized secondary motion for vegetation
-- **Contamination Effects:** Visual representation of toxin influence
-- **Combat Animation:** Clear readability with stylized impact
-- **Environmental Animation:** Dynamic world elements and reactions
+- **Keyframe Emphasis:** Strong key poses with exaggerated anticipation and follow-through
+- **Squash and Stretch:** Non-realistic deformation for impact and movement
+- **Snappy Timing:** Reduced in-between frames for more immediate action responses
+- **Overshooting:** Exaggerated movement past the intended position before settling
+- **Expressive Secondary Motion:** Amplified accessory and appendage animations
 
 ## UI Visual Design
 
 ### HUD Design
-- **Organic Integration:** Interface elements with plant-inspired design
-- **Readability Priority:** Clear information hierarchy at all resolutions
-- **Faction Customization:** Subtle visual variations based on player alignment
-- **Contamination Indicators:** Visual feedback on player toxin levels
-- **Minimalist Approach:** Essential information with minimal screen occupation
+- **Comic Panel Integration:** UI elements with cartoon-style frames and speech bubble aesthetics
+- **Bold Typography:** Clean, readable fonts with outlines and dynamic sizing
+- **Expressive Icons:** Stylized, exaggerated icons with cartoon animation properties
+- **Color Coding:** Bright, distinct color schemes for immediate information recognition
+- **Minimalist Approach:** Essential information with comic-inspired visual treatments
 
 ### Menu Systems
-- **Thematic Integration:** Interface design reflecting game world
-- **Navigation Clarity:** Intuitive layout with clear visual hierarchy
-- **Faction Identity:** Visual customization based on player alignment
-- **Accessibility Focus:** Readable design at various screen sizes
-- **Animation Integration:** Subtle motion enhancing usability
+- **Comic Book Layout:** Panel-based design with dynamic transitions between sections
+- **Animated Elements:** Cartoon-style motion with exaggerated physics
+- **Character Integration:** Reactive character poses and expressions in menu backgrounds
+- **Playful Interactions:** Satisfying, exaggerated feedback for menu selections
+- **Visual Storytelling:** Menu designs that complement the narrative themes
 
 ### Feedback Systems
-- **Combat Feedback:** Visual effects communicating hit registration
-- **Status Effects:** Clear visual language for player conditions
-- **Progression Indicators:** Satisfying visual reward for advancement
-- **Contamination Warnings:** Escalating visual alerts for danger levels
-- **Contextual Prompts:** Integrated environmental interaction cues
+- **Impact Frames:** Comic-style freeze frames and speed lines for significant actions
+- **Text Effects:** Onomatopoeic text displays for combat and gameplay feedback
+- **Animation Smears:** Exaggerated motion trails for rapid movements
+- **Particle Stylization:** Hand-drawn style effects rather than realistic simulation
+- **Readability Focus:** Clear visual language even during intense gameplay moments

@@ -30,6 +30,7 @@
   * [Environment Art](art/environments.md)
   * [UI Design](art/ui.md)
 * **Audio**
+  * [OST](audio/ost.md)
   * [Sound Design](audio/sound_design.md)
   * [Music Direction](audio/music.md)
   * [Voice Acting](audio/voice.md)

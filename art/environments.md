@@ -1,5 +1,21 @@
 # Environment Art
 
+## Stylized Environment Approach
+
+### Cartoon World Philosophy
+- **Bold Geometry:** Simplified, exaggerated environmental forms with clean edges
+- **Color Vibrancy:** Hyper-saturated palette with dramatic lighting contrasts
+- **Visual Hierarchy:** Gameplay-critical elements highlighted through style and color
+- **Dynamic Range:** Extreme variation between light and dark areas for dramatic effect
+- **Playful Physics:** Slightly unrealistic proportions and gravity for visual interest
+
+### Reference Implementation
+- **Garden Warfare Spaces:** Team-based area design with clear faction identity
+- **Sunset Overdrive Traversal:** Exaggerated architecture supporting dynamic movement
+- **Borderlands Wasteland:** Stylized post-apocalyptic structures with bold outlines
+- **Mirror's Edge Navigation:** Color-based wayfinding and movement guidance
+- **Fortnite Readability:** Distinct area types with immediate visual recognition
+
 ## Environment Types
 
 ### Fractured Farmlands
@@ -133,6 +149,27 @@
   - Weather-reactive environmental elements
   - Day/night cycle affecting plant behavior
   - Player-influenced environmental changes
+
+### Cel-Shaded Materials
+- **Outline Rendering:** Boundary detection for environmental elements
+- **Color Ramp Lighting:** Stylized lighting bands instead of smooth gradients
+- **Material Segmentation:** Clear visual distinction between surface types
+- **Simplified Texturing:** Bold base colors with minimal noise or photorealism
+- **Custom Shaders:** Specialized rendering for different environment categories
+
+### Stylized Lighting Implementation
+- **High-Contrast Illumination:** Exaggerated light/shadow relationships
+- **Color Temperature Extremes:** Bold warm/cool lighting contrasts
+- **Rim Lighting:** Strong edge highlights for environment silhouettes
+- **Stylized Shadows:** Simplified, slightly softened shadow casting
+- **Atmosphere Density:** Visible light rays and volumetric effects with cartoon styling
+
+### Visual Effects System
+- **Comic-Style Particles:** Hand-drawn appearance for environmental effects
+- **Exaggerated Physics:** Slightly unrealistic behavior for visual interest
+- **Stylized Destruction:** Cartoon-like breaking, shattering and explosion effects
+- **Animated Textures:** Subtle motion in materials for visual dynamism
+- **Impact Visualization:** Comic-inspired hit effects and interaction feedback
 
 ## Environmental Storytelling
 

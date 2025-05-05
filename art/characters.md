@@ -2,12 +2,12 @@
 
 ## Character Design Principles
 
-### Vegetable-Based Anatomy
-- **Anatomical Logic:** Believable plant-based body structures
-- **Species Traits:** Visual characteristics derived from real vegetable types
-- **Anthropomorphism Balance:** Human-like expressions with plant physiology
-- **Growth Patterns:** Design elements suggesting natural development
-- **Root Systems:** Functional lower-body designs for movement and stability
+### Cartoon Vegetable Anatomy
+- **Exaggerated Forms:** Highly stylized plant bodies with comic-inspired proportions
+- **Simplified Structures:** Clean, readable plant anatomy with strong silhouettes
+- **Expressive Features:** Oversized facial elements and emotive capabilities
+- **Animated Personality:** Character-specific idle animations and expression sets
+- **Bold Outlines:** Black border rendering to define character edges
 
 ### Faction Visual Identity
 
@@ -94,23 +94,23 @@
 
 ## Technical Character Specifications
 
-### Character Rigs
-- **Base Skeletons:** Class-specific animation rigs
-- **Dynamic Elements:** Secondary motion systems for plant parts
-- **Facial Rigging:** Expressive capabilities for dialogue and emotions
-- **Procedural Systems:** Dynamic reactions to environment and damage
-- **Equipment Rigging:** Animation-integrated gear attachment
+### Cartoon Character Rigging
+- **Exaggerated Poses:** Rig support for extreme poses and stretching
+- **Comic Timing Controls:** Animation tools for snappy movements and holds
+- **Squash & Stretch Deformers:** Non-realistic deformation capabilities
+- **Expressive Face System:** Oversized expressions with cartoon-style emotion
+- **Modular Accessory System:** Dynamic attachment points for stylized gear
 
-### Material Systems
-- **Subsurface Scattering:** For translucent plant tissues
-- **Wetness Variation:** Dynamic moisture levels affecting appearance
-- **Contamination Shader:** Visual representation of toxin effects
-- **Damage Visualization:** Progressive wear and injury representation
-- **Growth Shaders:** Dynamic elements showing healing and development
+### Cel-Shading Implementation
+- **Outline Rendering:** Black border generation via inverted hull or post-processing
+- **Color Banding:** Step-based lighting with custom ramp textures
+- **Flat Base Colors:** Simplified texturing with minimal gradient variation
+- **Material Contrast:** Exaggerated shader properties for different surfaces
+- **Stylized Effects:** Comic-style particles and impact animations
 
-### Performance Considerations
-- **LOD System:** Detail reduction at distance while maintaining readability
-- **Texture Atlasing:** Efficient memory usage for character variety
-- **Animation Complexity:** Detail balancing for performance
-- **Particle Budgeting:** Efficient visual effects for character abilities
-- **Visibility Culling:** Smart rendering of complex character elements
+### Animation Principles
+- **Anticipation & Overshoot:** Exaggerated preparation and follow-through
+- **Smear Frames:** Motion blur represented through stretched geometry
+- **Snappy Transitions:** Quick movement between key poses
+- **Expressive Extremes:** Pushing poses beyond realistic limitations
+- **Animated Idle Personality:** Character-defining micro-animations
