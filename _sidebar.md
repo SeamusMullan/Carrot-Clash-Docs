@@ -35,6 +35,15 @@
   * [Music Direction](audio/music.md)
   * [Voice Acting](audio/voice.md)
 * **Technical**
+  * **UML Diagrams**
+    * [System Overview](technical/uml_diagrams/system_overview.md)
+    * [Player Subsystem](technical/uml_diagrams/player_subsystem.md)
+    * [Weapon System](technical/uml_diagrams/weapon_system.md)
+    * [Enemy & Combat](technical/uml_diagrams/enemy_combat_system.md)
+    * [UI System](technical/uml_diagrams/ui_system.md)
+    * [State Management](technical/uml_diagrams/state_management.md)
+    * [Interaction Systems](technical/uml_diagrams/interaction_systems.md)
+    * [Data Flow](technical/uml_diagrams/data_flow.md)
   * [System Requirements](technical/requirements.md)
   * [Performance Targets](technical/performance.md)
   * [Development Roadmap](technical/roadmap.md)
